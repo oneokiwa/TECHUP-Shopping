@@ -93,6 +93,7 @@ cd TECHUP-Shopping
 cp src/main/resources/application.yml.example src/main/resources/application.yml
 ```
 
+.env, .env.test 파일 경로 설정 적용 및
 `application.yml` 환경 설정 후
 
 ```
@@ -105,7 +106,7 @@ cp src/main/resources/application.yml.example src/main/resources/application.yml
 
 API 문서는 Swagger UI를 통해 확인할 수 있습니다.
 
-[**http://localhost:8080/swagger-ui.html**](http://localhost:8080/swagger-ui.html)
+[**http://localhost:8080/swagger-ui/index.html**](http://localhost:8080/swagger-ui/index.html)
 
 <br/>
 
