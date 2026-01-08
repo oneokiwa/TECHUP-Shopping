@@ -1,0 +1,16 @@
+services:
+  techup-mysql:
+    image: mysql
+    container_name: shopping-mysql-fork
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+    platform: linux/arm64
+
+  techup-redis:
+    image: redis
+    container_name: shopping-redis-fork
+    ports:
+      - "6379:6379"
+    platform: linux/arm64
